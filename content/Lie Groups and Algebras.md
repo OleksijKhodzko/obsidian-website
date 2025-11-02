@@ -45,5 +45,7 @@ $$
 1+\theta_{j}\phi_{k} \Big[X_{j}, X_{k} \Big]+\dots = 1 + i\xi_{l}X_{l} + \dots
 \implies \left[ X_{j},X_{k} \right] =iC^{l}_{jk}X_{l},
 $$
-
+### Adjoin representation
+Matrices $X_{j}$ can have any number of dimensions.
+Adjoin $(T_{j})^{m}_{k} = -i C^{m}_{jk}$ representation has the exact number of dimensions as the minimal amount of real parameters needed to define a transformation (algebra element).
 
