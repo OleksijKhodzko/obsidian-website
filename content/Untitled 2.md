@@ -1,0 +1,1 @@
+![[quarks_and_leptons_an_introductory_course_in_modern_particle_physics.pdf#page=32|quarks_and_leptons_an_introductory_course_in_modern_particle_physics, p.11]]
