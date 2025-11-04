@@ -47,5 +47,32 @@ $$
 $$
 \Big[I, I^{\mu} \Big]=\frac{i}{(-p^{2})^{\varepsilon}} \frac{2}{2} \frac{\pi^{2-\varepsilon}}{\Gamma(2-\varepsilon)} \frac{1}{2^{4-2\varepsilon}} () = \frac{i}{2^{4}\pi^{2}}\left( \frac{4\pi}{-p^{2}} \right)^\varepsilon \times \Big[B(1-\varepsilon, 1-\varepsilon), -p^{\mu} B(2-\varepsilon, 1-\varepsilon) \Big]\Gamma(\varepsilon)
 $$
-We used $\Gamma(2-\varepsilon)=(4\pi)^{\varepsilon}$.
 
+We used $\Gamma(2-\varepsilon)=(4\pi)^{\varepsilon}$.
+$$
+= \frac{i}{2^{4}\pi^{2}}\left( \frac{4\pi}{-p^{2}} \right)^\varepsilon \times \Big[\frac{\Gamma(1-\varepsilon)}{\Gamma(2-2\varepsilon)}, -p^{\mu} \frac{\Gamma(2-\varepsilon)}{\Gamma(3-2\varepsilon)} \Big]\Gamma^(1 -\varepsilon)\Gamma^(1 +\varepsilon) \frac{1}{\varepsilon}
+$$
+
+$$
+\Gamma(1-\varepsilon)=\exp\left\{\gamma\varepsilon + \frac{\pi^{2}}{12}\varepsilon^{2}+\dots\right\}
+$$
+$$
+(y-1)\Gamma(y-1)=\Gamma(y)
+$$
+$$
+\Gamma(2-2\varepsilon)=(1-2\varepsilon)\Gamma(1-2\varepsilon)
+$$
+$$
+\frac{\Gamma(1-\varepsilon)}{\Gamma(2-2\varepsilon)} = \frac{\Gamma(1-\varepsilon)}{(1-2\varepsilon)\Gamma(1-2\varepsilon)} = (1+2\varepsilon+\dots)e^{-\gamma\varepsilon}
+$$
+
+$$
+\frac{\Gamma(2-\varepsilon)}{\Gamma(3-2\varepsilon)} = \frac{1}{2 } (1+2\varepsilon+\dots)e^{-\gamma\varepsilon}
+$$
+$$
+\Big[I,I^{\mu} \Big] = \dots
+$$
+
+$$
+\Sigma (p) = (\text{result from lecture})
+$$
