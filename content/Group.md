@@ -78,3 +78,10 @@ $$\rho(g) = \begin{pmatrix} \rho_1(g) & 0 \\ 0 & \rho_2(g) \end{pmatrix}$$
 ---
 
 Это определение прояснило ваш вопрос? Мы можем также рассмотреть **Лемму Шура**, которая является ключевым инструментом для работы с неприводимыми представлениями.
+
+# Rank of group
+## Finite group
+Rank of a finite group is an amount of elements in it.
+## Infinite group
+Rank of an infinite group is not uniquely defined.
+One of the definitions is [[cardinality]] of the generating set of the group.

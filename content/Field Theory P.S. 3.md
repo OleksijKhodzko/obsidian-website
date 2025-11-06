@@ -44,3 +44,20 @@ We know that $W>0$ as $V(\phi)>0$; $W>0$ from definition:
 $$G\equiv\frac{1}{2}\int d^{d}x\partial_{k}\phi_{j}^{0}\partial_{k}\phi_{j}^{0}.$$
 So we have $d < 2$ for non-zero potential.
 
+# 2. Linear sigma model
+We have $N$ fields and $d+1$ dimension.
+$${\mathcal L}=\frac{1}{2}\partial_{\mu}\vec{\phi}^{T}\partial^{\mu}\vec{\phi}+\frac{1}{2}m^{2}\vec{\phi}^{T}\vec{\phi}-\frac{\lambda}{4}\left(\vec{\phi}^{T}\vec{\phi}\right)^{2},$$
+where
+$$\vec{\phi}=(\phi_{1},.\ldots,\phi_{N})^{T}.$$
+a) It has a continuous symmetry $O(N)$.
+Vacuum manifold is the minimum of potential. 
+Defining $\delta \phi=\varepsilon \phi$ we get:
+$$
+m^{2}\phi^{2} = \lambda \phi^{4}\implies \phi^{2}=\frac{m^{2}}{\lambda}.
+$$
+So the vacuum manifold is a metasphere in $N-1$ dimension.
+
+b) According to ![[Goldstone's Theorem]], we have $O(N)$ - $O(N-1) = \frac{N(N-1)}{2}-\frac{(N-1)(N-2)}{2}=N-1$ generators. 
+We can see that $N-1$ is the right "dimension" by taking a look at a concrete vacua solution: $\phi^{T}=\left( 0,0,\dots,\ \frac{m}{\sqrt{ \lambda }} \right)$. 
+
+c) 
