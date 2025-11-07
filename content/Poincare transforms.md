@@ -14,7 +14,7 @@ $$
 $$
 From (1) and (2):
 $$
-L^{\mu}_{\ \ \ \rho}L^{\nu}_{\ \ \ \lambda}g_{\mu\nu}=g_{\rho\lambda}.
+L^{\mu}_{\ \ \ \rho}L^{\nu}_{\ \ \ \lambda}g_{\mu\nu}=g_{\rho\lambda}.\ (3)
 $$
 
 
