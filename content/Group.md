@@ -4,6 +4,7 @@ draft: false
 tags:
   - Group_theory
 ---
+# Definition of group
 Set $G$ with multiplication operation $\circ$ is called a group if it has:
 1. Closure: $g_{1}\circ g_{2}=g_{3}$
 2. Associativity: $(g_{1}\circ g_{2})g_{3}=g_{1}\circ(g_{2}\circ g_{3})$
