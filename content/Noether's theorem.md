@@ -3,7 +3,6 @@ tags:
   - Field_theory
 date:
 ---
-
 # Noether's Theorem
 Invariance of a field theoretical model (action) under a continuous group of transformations $G$ implies the existence of integrals of motion which are functionals of fields and their derivatives  which are constant in time provided that the fields obey the equations of motions derived from the principle of least action.
 
@@ -55,4 +54,4 @@ $$
 Q_\alpha(t)=\int d^{3}xj^{0}_{\alpha}(t,\vec{x})=const.
 $$
 ### Local symmetry
-One can also pose local symmetry condition, which is equality between Lagrangians up to a full derivative. Then he will obtain $j_{\alpha}^{\mu}=const$.
+One can also pose local symmetry condition, which is equality between Lagrangians up to a full derivative. Then he will obtain $\nabla \cdot j_{\alpha}=0$.
