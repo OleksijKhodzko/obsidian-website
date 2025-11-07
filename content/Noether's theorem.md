@@ -9,24 +9,24 @@ Invariance of a field theoretical model (action) under a continuous group of tra
 Lets denote elements of $G(\omega)=(f(\omega), F(\omega))$,  $\omega=(\omega^{1},\dots,\omega^{s})=\omega^{\alpha}_{\alpha=1,\dots, s}$, where $\omega$ are continuous real parameters. $f(\omega)$ acts on spacetime points and $F(\omega)$ acts on fields.
 $G(0)\equiv I$. All the transforms are smooth.
 $$
-\begin{gather}
+\begin{gather*}
 x \to x'=f(x;\omega),\\
 u_a(x)\to u'_{a}(x')=F_a(u_{b}(x);\omega).
-\end{gather}
+\end{gather*}
 $$
 Infinitesimal transformations:
 $$
-\begin{gather}
+\begin{gather*}
 x\to x'=x+\omega^{a}\xi_{\alpha}(x)+\dots, \\
 u_\alpha(x) \to u'_\alpha (x') = u'_\alpha(x) + \omega^{k}\xi_k \cdot \frac{ \partial u'_\alpha }{ \partial x } \Bigg|_{\omega=0}^{} +\dots\implies u_a(x')+\omega^{k}D_k u_a(x),
-\end{gather}
+\end{gather*}
 $$
 where
 $$
-\begin{gather}
+\begin{gather*}
 \xi_\alpha=\frac{ \partial f(x;w) }{ \partial \omega^{\alpha} } \Bigg|_{\omega=0}^{},\\
 D_{k}u_\alpha= \frac{ \partial  }{ \partial \omega^{k} } F_a(u_a(x);\omega)\Bigg|_{\omega=0}^{}-\xi^{\mu}_{k}\partial_{\mu}{u'_\alpha}\Bigg|_{\omega=0}^{}
-\end{gather}
+\end{gather*}
 $$
 
 $\xi_\alpha$ is called ==a Killing vector.== $D_ku_a(x)$ is called a ==Lie derivative== of field $u_a$ at point $x$ in direction $\xi_k$.
