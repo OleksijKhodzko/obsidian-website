@@ -33,6 +33,26 @@ $$
 $\xi_\alpha$ is called ==a Killing vector.== $D_ku_a(x)$ is called a ==Lie derivative== of field $u_a$ at point $x$ in direction $\xi_k$.
 
 $S_\Omega[u]$ - action functional calculated in the time interval $[t', t'']$.
-Transformation $(f, F)$ is a symmetry if new action that we get by applying it differs from the initial one only with a boundary term $\int_{\partial_{\Omega }} dS_{\mu}K^{\mu}(u;x;\omega)$.
+*Transformation $(f, F)$ is a symmetry if new action that we get by applying it differs from the initial one only with a boundary term $\int_{\partial_{\Omega }} dS_{\mu}K^{\mu}(u;x;\omega)$.*
+It can be shown by taking functional derivative of both sides of this equality.
 
+## Noether's identity
+The identity is
+$$
+\int_\Omega d^{4}x \frac{dj^{\mu}_{\alpha}}{dx^{\mu}}=\int_\Omega d^{4}x D_\alpha u_a(x) \frac{\delta S}{\delta u_a}
+$$
+where density current is defined as
+$$
+j^{\mu}_{\alpha}=K^{\mu}_{\alpha}(u_a;x)-\mathcal{L}\xi^{\mu}_{\alpha}-\frac{ \partial \mathcal{L} }{ \partial (u_{a,\mu}(x)) }D_\alpha u_a(x), 
+$$
+where $K^{\mu}_{\alpha}$ is a coefficient in first-order term in expansion of $K^{\mu}$ by $\omega^{\alpha}$.
+For $\omega=0$ $K\equiv 0$, so $K^{\mu}=\omega^{\alpha}K^{\mu}_{\alpha} + \dots$.
+==The fact of its existence is called Noether's theorem.==
+It is derived by expanding l.h.s of $S_{\Omega'}[u']=S_\Omega[u]+\int_{\partial_{\Omega }} dS_{\mu}K^{\mu}(u;x;\omega)$ to the first 2 orders and then putting $\omega=0$.
 
+If the fields are "on-shell", r.h.s of identity vanishes and we get 
+$$
+Q_\alpha(t)=\int d^{3}xj^{0}_{\alpha}(t,\vec{x})=const.
+$$
+### Local symmetry
+One can also pose local symmetry condition, which is equality between Lagrangians up to a full derivative. Then he will obtain $j_{\alpha}^{\mu}=const$.
