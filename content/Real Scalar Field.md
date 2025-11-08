@@ -26,10 +26,34 @@ The pertinent motion equations are:
 $$
 \Box\ \phi+m^{2}\phi+V'=0.
 $$
-### Quadratic potential 
+# Quadratic potential 
 For quadratic potential the equation $(5)$ is a [[Klein-Gordon equation]].
 
-### Cubic potential 
+# Cubic potential 
 Cubic potential is not of physical interest because the corresponding energy is not bounded from the bottom.
-To show that, lets write down the [[Noether's theorem#^857747|current density]] :
+To show that, lets write down the [[Noether's theorem#^857747|current density]] for translation symmetry  (energy corresponds to time translation symmetry):
+$$
+j^{\mu}_{\alpha}=-\mathcal{L}\delta^{\mu}_{\alpha}-\partial^{\mu}{\phi(x)}\partial_{\alpha}{\phi(x)}. 
+$$
+#### Energy-momentum tensor 
+$$
+j_\alpha^{\mu}= T^{\mu}_{\ \ \ \nu}\xi^{\nu}_{\alpha}.
+$$
+For scalar field $j^{\mu}_{\nu}=T^{\mu}_{\ \ \ \nu}.$
 
+==Now if we calculate the energy-momentum tensor, we get that the energy is arbitrary, consequently not bounded from below.==
+
+
+# Quartic potential 
+$$
+V(\phi)=\frac{\lambda}{4!}\phi^{4}(x)
+$$
+$$
+E = \int d^{3}x j^{0}_{0}, \ P^{i}=-\int d^{3}xj_{i}^{0}.
+$$
+Minus is here because of the metric used to rise index.
+We take $0-th$ space-time coordinate part of current density because it is conserved if we assume that other coordinates vanish on infinity
+## $m^{2}>0$
+Minimal energy is 0 ($\psi\equiv 0$). Nothing interesting.
+## $m^{2}<0$
+In this case the 

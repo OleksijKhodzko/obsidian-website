@@ -3,3 +3,4 @@
 is a "on-shell" condition?
 
 2. What is the gauge-independent action in GR?
+3. Why energy would be unbounded from below if in [[Klein-Gordon equation]] $m^{2}$was less than $0$?

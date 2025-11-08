@@ -60,4 +60,4 @@ $$
 Q_\alpha(t)=\int d^{3}xj^{0}_{\alpha}(t,\vec{x})=const.
 $$
 ### Local symmetry
-One can also pose local symmetry condition, which is equality between Lagrangians up to a full derivative. Then he will obtain $\nabla \cdot j_{\alpha}=0$.
+One can also pose local symmetry condition, which is equality between Lagrangians up to a full derivative. Then he will obtain $\nabla_{4} \cdot j_{\alpha}=0$.
