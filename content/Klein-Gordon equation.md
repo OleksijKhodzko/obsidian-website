@@ -31,10 +31,11 @@ We can do shenanigans with it:
 $$
 \delta(a^{2}-b^{2})=\frac{1}{2}(\delta (a-b)+\delta(a+b))
 $$
+##### Expansion for homogeneous solution 
 $$
-\phi_{0}(x)=\int \frac{d^{3}k}{\sqrt{ 2(2\pi)^{3} \omega(\vec{k})}}\ (a_{+}(\vec{k})e^{ -ikx }+a_{-}(\vec{k})e^{ ikx })
+\phi_{0}(x)=\int \frac{d^{3}k}{\sqrt{ 2(2\pi)^{3} \omega(\vec{k})}}\ (a_{+}(\vec{k})e^{ -ikx }+a_{-}(\vec{k})e^{ ikx })\Bigg|_{k_{0}=\frac{w(\vec{k})}{c}}^{} 
 $$
-Analysis: for imaginary $k_{0}$ we get oscillating behavior. For real $k_{0}$ we get exponential growth of values of the field in time. 
+Analysis: for real $k_{0}$ we get oscillating behavior. For imaginary $k_{0}$ we get exponential growth of values of the field in time. 
 
 # Inhomogeneous [[Klein-Gordon equation]]  
 The solution to [[#^9a8e2e|inhomogeneous equation]] is 

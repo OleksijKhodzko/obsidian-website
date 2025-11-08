@@ -58,7 +58,6 @@ $$
 
 ^350772
 
-^cd6342
 Energy and momentum:
 $$
 
@@ -100,12 +99,27 @@ $$
 $$
  Vacuum manifold is invariant under $S: \phi\to-\phi$ transformation. But the individual vacuum states are not.
 
-We can also analyze small perturbations around the vacua. 
+### Small perturbations around the $\psi_{\pm}$ vacua
 $$
 \phi=\phi_{\pm }+\epsilon(x).
 $$
-Putting it into [[#^350772]] we get just a [[Klein-Gordon equation]]:
+Putting it into [[#^350772|(9)]] we get just a [[Klein-Gordon equation]]:
 $$
-(\partial_{\mu}{\partial^{\mu}{}}-|m^{2}|)\epsilon(x)=0.
+(\partial_{\mu}{\partial^{\mu}{}}+2|m^{2}|)\epsilon(x)=0.
 $$
+Which gives $\omega (\vec{k})=c\sqrt{ \vec{k}^{2}-2|m^{2}| }$. It is imaginary for small $\vec{k}$.
+If we put imaginary $\omega(\vec{k})$ into [[Klein-Gordon equation#Expansion for homogeneous solution]] we see that  ==$\psi_{+}$ is stable== (the condition here is the opposite to the condition in [[Klein-Gordon equation]] note, as it is derived for equation with positive sign near the mass term, and here we have minus).
+### Small perturbations around $\psi_{0}$ vacua
+$$
+\phi=\epsilon(x).
+$$
+Putting it into [[#^350772|(9)]] we get another [[Klein-Gordon equation]]:
+$$
+(\partial_{\mu}{\partial^{\mu}{ }}-|m^{2}|)^{2}\epsilon(x)=0.
+$$
+$\omega(\vec{k})=c\sqrt{ \vec{k}^{2}+|m^{2}| }$, so $\psi_{0}$ is unstable.
+
+
+### Planar domain walls 
+
 
