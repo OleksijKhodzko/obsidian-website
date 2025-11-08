@@ -27,8 +27,9 @@ $$
 \Box\ \phi+m^{2}\phi+V'=0.
 $$
 ### Quadratic potential 
-For quadratic potential the equation $(*)$ is a [[Klein-Gordon equation]].
+For quadratic potential the equation $(5)$ is a [[Klein-Gordon equation]].
 
 ### Cubic potential 
 Cubic potential is not of physical interest because the corresponding energy is not bounded from the bottom.
-To show that,
+To show that, lets write down the [[Noether's theorem#^857747|current density]] :
+

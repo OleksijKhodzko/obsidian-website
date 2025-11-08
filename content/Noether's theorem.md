@@ -29,6 +29,8 @@ D_{k}u_\alpha= \frac{ \partial  }{ \partial \omega^{k} } F_a(u_b(x);\omega)\Bigg
 \end{gather*}
 $$
 
+^0109e9
+
 $\xi_\alpha$ is called ==a Killing vector.== $D_ku_a(x)$ is called a ==Lie derivative== of field $u_a$ at point $x$ in direction $\xi_k$.
 
 $S_\Omega[u]$ - action functional calculated in the time interval $[t', t'']$.
@@ -44,6 +46,10 @@ where density current is defined as
 $$
 j^{\mu}_{\alpha}=K^{\mu}_{\alpha}(u_a;x)-\mathcal{L}\xi^{\mu}_{\alpha}-\frac{ \partial \mathcal{L} }{ \partial (u_{a,\mu}(x)) }D_\alpha u_a(x), 
 $$
+
+^857747
+
+^3ce7c5
 where $K^{\mu}_{\alpha}$ is a coefficient in first-order term in expansion of $K^{\mu}$ by $\omega^{\alpha}$.
 For $\omega=0$ $K\equiv 0$, so $K^{\mu}=\omega^{\alpha}K^{\mu}_{\alpha} + \dots$.
 ==The fact of its existence is called Noether's theorem.==
