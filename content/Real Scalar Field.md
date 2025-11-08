@@ -121,5 +121,20 @@ $\omega(\vec{k})=c\sqrt{ \vec{k}^{2}+|m^{2}| }$, so $\psi_{0}$ is unstable.
 
 
 ### Planar domain walls 
-
+The solution $\phi$ is called a planar domain wall if
+$$
+\phi=\phi(x^{3}),
+$$
+$$
+\lim_{ x^{3} \to -\infty } \phi=\phi_{-}, \ \lim_{ x^{3} \to \infty } \phi=\phi+.
+$$
+$x^{3}$ is just an example, it can be any parameter.
+By investigating perturbations 
+$$
+\psi\to \psi_{d} +\epsilon(x),
+$$
+$$
+\epsilon(x)=\exp\left\{-ik_{0}x^{0}\right\}\exp\left\{ik_{1}x^{1}+ik_{2}x^{2}\right\}\psi(x^{3}),
+$$
+we can show planar domain wall solutions are stable.
 
