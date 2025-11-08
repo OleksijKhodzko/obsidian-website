@@ -13,8 +13,10 @@ $$
 Killing vector is either for translations in Minkovski space or for [[Lorentz transform]].
 Lets demand local invariance without external fields and also assume vanishing of the surface term.
 $$
-\mathcal{L}(\phi(x), \partial_{\mu}{\phi(x)}) =\mathcal{L}(\phi'(x'), \partial'_{\mu}{\phi'(x')})
+\mathcal{L}(\phi(x), \partial_{\mu}{\phi(x)}) =\mathcal{L}(\phi'(x'), \partial'_{\mu}{\phi'(x')}) \tag{3}
 $$
+
+^7a0c17
 
 From this equality we see that and invariance of scalar field we see that Lagrangian can have any dependence on $\phi(x)$ but the derivatives must be present only in invariant combinations.
 
@@ -45,8 +47,21 @@ For scalar field $j^{\mu}_{\nu}=T^{\mu}_{\ \ \ \nu}.$
 
 
 # Quartic potential 
+Potential:
 $$
 V(\phi)=\frac{\lambda}{4!}\phi^{4}(x)
+$$
+Equations of motion:
+$$
+\partial_{\mu}{\partial^{\mu}{\phi}}+m^{2}\phi+\frac{\lambda}{3!}\phi^{3}=0 \tag{9}
+$$
+
+^350772
+
+^cd6342
+Energy and momentum:
+$$
+
 $$
 $$
 E = \int d^{3}x j^{0}_{0}, \ P^{i}=-\int d^{3}xj_{i}^{0}.
@@ -86,3 +101,11 @@ $$
  Vacuum manifold is invariant under $S: \phi\to-\phi$ transformation. But the individual vacuum states are not.
 
 We can also analyze small perturbations around the vacua. 
+$$
+\phi=\phi_{\pm }+\epsilon(x).
+$$
+Putting it into [[#^350772]] we get just a [[Klein-Gordon equation]]:
+$$
+(\partial_{\mu}{\partial^{\mu}{}}-|m^{2}|)\epsilon(x)=0.
+$$
+
