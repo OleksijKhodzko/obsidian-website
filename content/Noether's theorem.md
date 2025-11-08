@@ -18,14 +18,14 @@ Infinitesimal transformations:
 $$
 \begin{gather*}
 x\to x'=x+\omega^{a}\xi_{\alpha}(x)+\dots, \\
-u_\alpha(x) \to u'_\alpha (x') = u'_\alpha(x) + \omega^{k}\xi_k \cdot \frac{ \partial u'_\alpha }{ \partial x } \Bigg|_{\omega=0}^{} +\dots\implies u_a(x')+\omega^{k}D_k u_a(x),
+u_\alpha(x) \to u'_\alpha (x') = u'_\alpha(x) + \omega^{k}\xi_k \cdot \frac{ \partial u'_\alpha (x)}{ \partial x } \Bigg|_{\omega=0}^{} +\dots\implies u_{a}'(x) = \underbrace{ u_a(x) }_{ F(0) }+\omega^{k}D_k u_a(x),
 \end{gather*}
 $$
 where
 $$
 \begin{gather*}
 \xi_\alpha=\frac{ \partial f(x;w) }{ \partial \omega^{\alpha} } \Bigg|_{\omega=0}^{},\\
-D_{k}u_\alpha= \frac{ \partial  }{ \partial \omega^{k} } F_a(u_a(x);\omega)\Bigg|_{\omega=0}^{}-\xi^{\mu}_{k}\partial_{\mu}{u'_\alpha}\Bigg|_{\omega=0}^{}
+D_{k}u_\alpha= \frac{ \partial  }{ \partial \omega^{k} } F_a(u_b(x);\omega)\Bigg|_{\omega=0}^{}-\xi^{\mu}_{k}\partial_{\mu}\underbrace{ {u_\alpha(x)} }_{ u'_\alpha (x)\approx u_a'(x') \text{ for } \omega=0}\Bigg|_{\omega=0}^{}
 \end{gather*}
 $$
 
