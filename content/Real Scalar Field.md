@@ -53,7 +53,36 @@ E = \int d^{3}x j^{0}_{0}, \ P^{i}=-\int d^{3}xj_{i}^{0}.
 $$
 Minus is here because of the metric used to rise index.
 We take $0-th$ space-time coordinate part of current density because it is conserved if we assume that other coordinates vanish on infinity
+
+# Vacuum manifolds and [[Spontaneous symmetry breaking and Goldstone bosons|SSB]]
+$$
+\begin{align*}
+\mathcal{L}=\frac{1}{2} \eta^{\mu \nu}\partial_{\mu}{\phi(x)}\partial_{\nu}{\phi(x)}-\frac{1}{2}m^{2}\phi(x)^{2}-\frac{\lambda}{4!}\phi(x)^{4} = \\
+=\frac{1}{2} \eta^{\mu \nu}\partial_{\mu}{\phi(x)}\partial_{\nu}{\phi(x)}-U(\phi(x)) + \frac{3m^{4}}{2\lambda},
+\end{align*}
+$$
+$$
+U=\frac{\lambda}{4!}\left( \phi^{2}\pm \frac{6|m^{2}|}{\lambda} \right)^{2}
+$$
 ## $m^{2}>0$
+$$
+U=\frac{\lambda}{4!}\left( \phi^{2}+ \frac{6|m^{2}|}{\lambda} \right)^{2}
+$$
 Minimal energy is 0 ($\psi\equiv 0$). Nothing interesting.
 ## $m^{2}<0$
-In this case the 
+$$
+U=\frac{\lambda}{4!}\left( \phi^{2}- \frac{6|m^{2}|}{\lambda} \right)^{2}
+$$
+In this case the we have 3 extremums:
+```handwritten-ink
+{
+	"versionAtEmbed": "0.3.4",
+	"filepath": "Ink/Writing/2025.11.8 - 13.21pm.writing"
+}
+```
+$$
+\phi_{\pm }=\pm \sqrt{ \frac{6|m^{2}|}{\lambda} }, \ \phi_{0}=0
+$$
+ Vacuum manifold is invariant under $S: \phi\to-\phi$ transformation. But the individual vacuum states are not.
+
+We can also analyze small perturbations around the vacua. 
