@@ -1,1 +1,0 @@
-$SU(n)$ group
