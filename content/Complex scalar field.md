@@ -80,8 +80,8 @@ To construct a vortex we take an approach analogous to [[Real Scalar Field#"Topo
 3. Without problems, we extend that circle to a cylinder $C\times R_{1}$.
 4. Then we try to extend that cylinder to the whole 3-d space by assigning the same values for each point in the beams going from infinity towards $0$.  
 5. There is an infinite amount of mathematical proofs with [[homotopies]] and [[winding number]] that  $\phi$ must vanish in the vicinity of $R=0$ for it to be continuous.
-6. So we take a step back, leave $\phi$ equal to corresponding "vacuum values" outside of the cylinder and replace it with a continuous distribution inside the cylinder which vanishes at some points inside some tube.
-7. The tube can be closed, then we get a 
+6. So we take a step back, leave $\phi$ equal to corresponding "vacuum values" outside of the cylinder and replace it with a continuous distribution inside the cylinder which vanishes at some points inside some tube. We call that tube "zeros line".
+7. The zeros line can be closed, then we get a vortex of finite size and finite energy.
 8. Energy is the bigger the more vanishing points there are inside , so we leave just one.
 
 
