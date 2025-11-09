@@ -1,0 +1,222 @@
+International Journal of Mathematics Research.
+
+ISSN 0976-5840 Volume 10, Number 1 (2018), pp. 1-5
+
+© International Research Publication House
+
+http://www.irphouse.com
+
+\title{
+Optimised Method to find the Centre of a Quadric Hypersurface
+}
+
+\author{
+Manav Seksaria \\ Department of Science, PACE Junior College, Borivali, Mumbai.
+}
+
+\begin{abstract}
+This paper aims to demonstrate the patterns in the occurrence of centres of Quadric Hypersurfaces of Second Degree in an n-dimensional space. This will be done by closely observing the general equation of the Quadric and restructuring it to find the centre and looking for a pattern in doing so. This pattern would enable us to locate the Centre in a much more efficient way in comparison to a Geometric Method.
+\end{abstract}
+
+\section*{AMS subject classification:}
+
+Keywords: Quadric Surfaces, Cramer's Rule, Matrices
+
+\section*{1. Introduction}
+
+A Quadric Hypersurface is a genralisation of a Conic Section [3]. It is a hypersurface (of dimension \(\mathrm{D}\) ) in a \((\mathrm{D}+1)\)-dimensional space. Examples are cone, cylinder, ellipsoid, hyperboloid, paraboloid, sphere, spheroid etc.
+
+When Any straight line which is the locus of the midpoints of a family of parallel chords is defined as the diameter. The centre of a Quadric is found by locating the intersection of diameters of the conic.
+
+A general Quadric [1] Hypersurface in the space \(\mathbb{R}^{n}\) such that the Quadric \(\mathbb{S}\) is
+
+\[
+\mathbb{S}: \sum_{i=1}^{n} a_{i} x_{i}^{2}+2 \sum_{i, j, i \neq j}^{n} b_{i} x_{i} x_{j}-2 \sum_{i=1}^{n} c_{i} x_{i}+d=0
+\]
+
+The Quadric can also be represented in Matrix form Where \(b_{i j}=b_{j i}\)
+
+\[
+\left[\begin{array}{c}
+x_{1} \\
+x_{2} \\
+\vdots \\
+x_{n} \\
+1
+\end{array}\right]\left[\begin{array}{ccccc}
+a_{1} & b_{12} & \ldots & b_{1 n} & -c_{1} \\
+b_{21} & a_{2} & & & \vdots \\
+\vdots & & \ddots & & \vdots \\
+b_{n 1} & & & a_{n} & -c_{n} \\
+-c_{1} & -c_{2} & \ldots & -c_{n} & d
+\end{array}\right]\left[\begin{array}{llllll}
+x_{1} & x_{2} & \ldots & \ldots & x_{n} & 1
+\end{array}\right]=0
+\]
+
+Which is the same as
+
+\[
+D M D^{T}=0
+\]
+
+Where \(D\) represents the Matrix whose size corresponds to the dimension of \(M\) and \(M\) represents the Matrix of coefficients of dimensions in \(\mathbb{S}\). The above is the general Matrix form of any Quadric Surface.
+
+\section*{2. Procedure}
+
+We know that the centre of a Quadric is the intersection point of all its diameters. This can be found out by differentiating (Partially) the curve with respect to every dimension, setting its value to 0 and solving the so obtained system of equations to obtain the centre.
+
+We set its value equal to zero for the following reason.
+
+We can view the curve as a level set of the function
+
+\[
+f\left(x_{1}, x_{2}, \ldots, x_{n}\right)=\sum_{i=1}^{n} a_{i} x_{i}^{2}+2 \sum_{i, j, i \neq j}^{n} b_{i} x_{i} x_{j}-2 \sum_{i=1}^{n} c_{i} x_{i}
+\]
+
+The level sets of this function create the family of curves \(\sum_{i=1}^{n} a_{i} x_{i}^{2}+2 \sum_{i, j, i \neq j}^{n} b_{i} x_{i} x_{j}-\) \(2 \sum_{i=1}^{n} c_{i} x_{i}+d=0\), where the parameter \(\mathrm{d}\) is changing.
+
+For the cases \(\frac{\partial S}{\partial x_{i}}>0\) or \(\frac{\partial S}{\partial x_{i}}<0\),
+
+We get concentric curves which can be in three dimensions; circles, ellipses, hyperbolas, in four dimansions; hyperboloids, ellipsoids etc and so on for higher dimensions. This point will either be a maxima or a minima or a saddle point given that the graphs are plotted about a point where the differencial is zero. All of these would centre around a fixed point which would be the be the centre of the Quadric since that is the only point which would satisfy the given condition. Therefore we set the respective derivatives to be zero for each dimension.
+
+We can furthur justify this from the fact that by Principal Axis Theorem we can translate and rotate the Quadric to bring it to the centre till all the coefficients of the
+linear terms are zero and bring it to the form, \(k_{1} x_{1}^{2}+k_{2} x_{2}^{2}+\cdots+k_{n} x_{n}^{2}=\) const where \(k_{i}\) is a constant coefficient for the transformed Quadric. This transformed quadric will clearly have it's partial derivatives equal to zero only about the origin and depending upon the sign of the coefficients \(k_{i}\) we can say whether it has minimum, maximum or saddle point there.
+
+Partial Differentiation of \(\mathbb{S}\) with respect to each dimensions would give the system of equations
+
+\[
+\left[\begin{array}{cccc}
+a_{1} & b_{12} & \ldots & b_{1 n} \\
+b_{21} & a_{2} & & \vdots \\
+\vdots & & \ddots & \vdots \\
+b_{n 1} & b_{n 2} & & a_{n}
+\end{array}\right]\left[\begin{array}{c}
+x_{1} \\
+x_{2} \\
+\vdots \\
+x_{n}
+\end{array}\right]-\left[\begin{array}{c}
+c_{1} \\
+c_{2} \\
+\vdots \\
+c_{n}
+\end{array}\right]=0
+\]
+
+The above system of equations can then me rearranged to be represented as
+
+\[
+\left[\begin{array}{cccc}
+a_{1} & b_{12} & \ldots & b_{1 n} \\
+b_{21} & a_{2} & & \vdots \\
+\vdots & & \ddots & \vdots \\
+b_{n 1} & b_{n 2} & & a_{n}
+\end{array}\right]\left[\begin{array}{c}
+x_{1} \\
+x_{2} \\
+\vdots \\
+x_{n} \\
+1
+\end{array}\right]=\left[\begin{array}{c}
+c_{1} \\
+c_{2} \\
+\vdots \\
+c_{n}
+\end{array}\right]
+\]
+
+It can be very clearly seen that this system of equations can be solved by direct application of Cramer's Rule [2]. Applying Cramer's Rule on the given Quadric HyperSurface
+
+\[
+\begin{aligned}
+& x_{1}=\frac{\left|\begin{array}{cccc}
+c_{1} & b_{12} & \ldots & b_{1 n} \\
+c_{2} & a_{2} & & \vdots \\
+\vdots & & \ddots & \vdots \\
+c_{n} & b_{n 2} & & a_{n}
+\end{array}\right|}{\left|\begin{array}{cccc}
+a_{1} & b_{12} & \ldots & b_{1 n} \\
+b_{21} & a_{2} & & \vdots \\
+\vdots & & \ddots & \vdots \\
+b_{n 1} & b_{n 2} & & a_{n}
+\end{array}\right|} \\
+& x_{2}=\frac{\left|\begin{array}{cccc}
+a_{1} & c_{1} & \ldots & b_{1 n} \\
+b_{21} & c_{2} & & \vdots \\
+\vdots & & \ddots & \vdots \\
+b_{n 1} & c_{n} & & a_{n}
+\end{array}\right|}{\left|\begin{array}{cccc}
+a_{1} & b_{12} & \ldots & b_{1 n} \\
+b_{21} & a_{2} & & \vdots \\
+\vdots & & \ddots & \vdots \\
+b_{n 1} & b_{n 2} & & a_{n}
+\end{array}\right|}
+\end{aligned}
+\]
+
+\[
+x_{n}=\frac{\left|\begin{array}{cccc}
+a_{1} & b_{12} & \ldots & c_{1} \\
+b_{21} & a_{2} & & c_{2} \\
+\vdots & & \ddots & \vdots \\
+b_{n 1} & b_{n 2} & & c_{n}
+\end{array}\right|}{\left|\begin{array}{cccc}
+a_{1} & b_{12} & \ldots & b_{1 n} \\
+b_{21} & a_{2} & & \vdots \\
+\vdots & & \ddots & \vdots \\
+b_{n 1} & b_{n 2} & & a_{n}
+\end{array}\right|}
+\]
+
+The numerator for the value of \(x^{1}\) is clearly the cofactor of \(c^{1}\) in the matrix \(\mathrm{M}\) and that of \(x^{2}\) is the cofactor of \(c^{2}\) from the matrix \(M\) and so on. The denominator in each case is the Cofactor of \(\mathrm{d}\) from the matrix \(M\).
+
+The Centre therefore can be represented in general for any n-dimensional Quadric HyperSurface as a ratio of two cofactors from the matrix \(M\);
+
+\[
+x_{i}=\frac{C_{C_{i}}(M)}{C_{d}(M)}
+\]
+
+Where the symbols \(\mathrm{M}, \mathrm{d}\) and \(i\) mean the same as defined before and the notation \(C^{e}(\mathrm{~A})\) represents the Cofactor of the element \(\mathrm{e}\) belonging to a given Matrix A.
+
+The above result is consistent with all types of Quadrics and gives appropriate results for them. For instance consider a Quadric which has no centre, say A Standard Parabola symmetric about the \(x\)-axis i.e a Quadric in 2 dimensions (In \(x\) and \(y\) ), which is linear in \(x\) and quadartic in \(y\). Let the curve \(\mathbb{P}\) be the Standard Parabola
+
+\[
+\mathbb{P}: y^{2}-4 a x=0
+\]
+
+The Matrix containing the coefficients for the curve would be
+
+\[
+M=\left[\begin{array}{ccc}
+a_{1} & b_{12} & c_{1} \\
+b_{12} & a_{2} & c_{2} \\
+c_{1} & c_{2} & d
+\end{array}\right]
+\]
+
+When we substitue the values of the Coefficients in the Matrix which contains the coefficients we get
+
+\[
+M=\left[\begin{array}{ccc}
+0 & 0 & -2 a \\
+0 & 1 & 0 \\
+-2 a & 0 & 0
+\end{array}\right]
+\]
+
+Clearly the value of \(C_{d}(M)=0\) for the curve implies the value of its individual coordinates will not be defined. This is perfectly consistent with the fact that the Parabola has all Parallel Diameters so they will never intersect.
+
+\section*{3. Conclusion}
+
+The centre of the Quadric can be evaluated and located very efficiently this way as calculation of determinants in higher dimensions is much faster than geometric procedures.
+
+In Future it is aimed to extend this generalisation to study other properties of Quadric Surfaces.
+
+\section*{References}
+
+[1] Stewart Venit and Wayne Bishop, Elementary Linear Algebra, International Thomson Publishing, 4, (1996), 383.
+
+[2] Thomas S. Shores, Applied Linear Algebra and Matrix Analysis, Springer-Verlag New York, 1, (2007).
+
+[3] Sydney Luxton Loney (1895), The Elements of Coordinate Geometry, London, Macmillan and co.
