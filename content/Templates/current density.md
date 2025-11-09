@@ -1,0 +1,1 @@
+[[Noether's theorem#^857747|current density]]

@@ -44,12 +44,11 @@ $$
 $$
 where density current is defined as
 $$
-j^{\mu}_{\alpha}=K^{\mu}_{\alpha}(u_a;x)-\mathcal{L}\xi^{\mu}_{\alpha}-\frac{ \partial \mathcal{L} }{ \partial (u_{a,\mu}(x)) }D_\alpha u_a(x), 
+j^{\mu}_{\alpha}=K^{\mu}_{\alpha}(u_a;x)-\mathcal{L}\xi^{\mu}_{\alpha}-\underbrace{ \frac{ \partial \mathcal{L} }{ \partial (u_{a,\mu}(x)) }D_\alpha u_a(x) }_{ \text{summation over a} }, 
 $$
 
 ^857747
 
-^3ce7c5
 where $K^{\mu}_{\alpha}$ is a coefficient in first-order term in expansion of $K^{\mu}$ by $\omega^{\alpha}$.
 For $\omega=0$ $K\equiv 0$, so $K^{\mu}=\omega^{\alpha}K^{\mu}_{\alpha} + \dots$.
 ==The fact of its existence is called Noether's theorem.==

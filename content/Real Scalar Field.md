@@ -1,5 +1,5 @@
 [[Configuration space]] of [[Real Scalar Field]] is space of functions $\phi: \mathbb{R}^{3}\to \mathbb{R}$.
-[[Trajectories]] are defined in $(ct, \vec{x})$ spacetime.
+[[Trajectories]] are defined by functions $\phi(x)$ which are defined on $(ct, \vec{x})$ spacetime.
 
 # Transforms of [[Real Scalar Field]] under [[Poincare transforms]] 
 By definition, scalar field is invariant under [[Poincare transforms]] :
