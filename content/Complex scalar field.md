@@ -39,6 +39,9 @@ $$
 \mathcal{L}=\partial_{\mu}{\phi ^{*}}\partial^{\mu}{\phi}-U(\phi ^{*}\phi)
 \tag{3.48}
 $$
+
+^02b870
+
 Vacuum manifold $\mathcal{V}$ (which is called [[Mexican hat potential]]) is 
 $$
 \phi=a\exp\left\{i\beta\right\},
@@ -82,9 +85,16 @@ To construct a vortex we take an approach analogous to [[Real Scalar Field#"Topo
 5. There is an infinite amount of mathematical proofs with [[homotopies]] and [[winding number]] that  $\phi$ must vanish in the vicinity of $R=0$ for it to be continuous.
 6. So we take a step back, leave $\phi$ equal to corresponding "vacuum values" outside of the cylinder and replace it with a continuous distribution inside the cylinder which vanishes at some points inside some tube. We call that tube "zeros line".
 7. The zeros line can be closed, then we get a vortex of finite size and finite energy.
-8. Energy is the bigger the more vanishing points there are inside , so we leave just one.
 
-
+The vortex with winding number $W[f]=0$ is called an *infinite  vortex*.
+$f(\theta)$ here is a smooth mapping from circle in 3-d space $C$ to unit circle in complex plane $S^{1}$ (or just a complex phase).
+$$
+W[f]=\frac{1}{2\pi i} \int_{0}^{2\pi} d\theta \ \frac{1}{f} \frac{df}{d\theta}
+\tag{3.60} 
+$$
+Let $\Theta(\theta)$ denote phase of $f$: $f(\theta)=\exp\left\{i\Theta(\theta)\right\}.$
+$W[f]=\frac{\Delta\Theta}{2\pi}$, $\Delta\Theta=\Theta(2\pi)-\Theta(0)$.
+$f$ is continuous on circle $C$, so $f(0)=f(2\pi)\implies W[f]=n, n\in \mathbb{Z}$. 
 
 # Transforms of [[Complex scalar field]] under [[Poincare transforms]] 
 $$\phi'(x)=\phi(x).$$
