@@ -137,4 +137,8 @@ $$
 \epsilon(x)=\exp\left\{-ik_{0}x^{0}\right\}\exp\left\{ik_{1}x^{1}+ik_{2}x^{2}\right\}\psi(x^{3}),
 $$
 we can show planar domain wall solutions are stable.
+#### "Topological" way of constructing planar domain walls 
+1. We choose 2 points $\vec{x}_{1}$ and $\vec{x}_{2}$ in 3-d space and put $\phi(t_{0},\vec{x}_{1})=\phi_{-}$ and $\phi(t_{0}, \vec{x}_{2})=\phi_{+}$.
+2. We continuously expand vicinities of both $x_{1}$ and $x_{2}$, assigning $\phi _{+}$ and $\phi _{-}$ to $\phi_{d}$ in those areas until they meet each other and we get a discontinuous jump. Then we take a step back and replace the jump with a [[continuous deformation]] from $\phi_{-}$ to $\phi_{+}$.
+
 
