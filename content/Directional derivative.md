@@ -28,7 +28,9 @@ $$
 \nabla_{u_{\lambda}} Y(x)\equiv 0\implies u_\lambda^{\mu}\nabla_{\mu} Y(x)=0.
 $$
 $$
-\frac{d\Lambda^{\mu}}{d\lambda}\nabla_{\mu} Y(x)\equiv 0.
+\frac{d\Lambda^{\mu}}{d\lambda}\nabla_{\mu} Y(x)\equiv 0. 
+\tag{3} 
 $$
+*by the way, [[geodesic equation]] is a parallel transport equation applied to the tangent vector of the curve*.
 ## Non-Abelian case 
-In GR, for example, the connection of space-time is [[Levi-Civita connection]], components of which are [[Christoffel symbols]]. 
+In GR, for example, the connection of space-time is [[Levi-Civita connection]], components of which are [[Christoffel symbols]]. This connection is imposed on the manifold of spacetime so that the [[covariant derivative]] is invariant under general linear group $GL(4, \mathbb{R})$ (group of all invertible 4x4 matrices), which "represents" coordinate changes. The group is non-Abelian, so we cant
