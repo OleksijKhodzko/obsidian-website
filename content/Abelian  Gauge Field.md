@@ -22,7 +22,7 @@ $$
 \mathcal{D}_{\mu}\phi=\partial_{\mu}{\phi}+iqA_{\mu}(x)\phi,
 \tag{3} 
 $$
-where $A_\mu$ is a ==gauge== field.
+where $A_\mu$ is a real-valued ==gauge field==.
 If we put that in $(2)$, we get:
 $$
 A_\mu' = A_\mu-\partial_{\mu}{\chi(x)}.
@@ -51,7 +51,7 @@ After applying [[Euler-Lagrange equation|Euler-Lagrange equations]], we  can not
 $$
 A_{\mu}=\frac{i}{2q}\left( \frac{\partial_{\mu}{\phi}}{\phi} -\frac{\partial_{\mu}{\phi ^{*}}}{\phi ^{*}}\right).
 $$
-Also, the model is not defined if $\phi=0$ for some $x$.
+Also, the model is not defined if $\phi=0$ for some $x.$
 
 ## Way numer duo 
 We can also add some additional  term $\mathcal{L}_A$ to $(4)$, but it has to be gauge- and Lorentz-invariant.
@@ -68,3 +68,9 @@ $$
 \mathcal{L}=\mathcal{D}_{\mu}(A)\phi ^{*}\mathcal{D}^{\mu}(A)\phi-m^{2}\phi ^{*}\phi-\frac{1}{4e^{2}}F^{\mu \nu}F_{\mu \nu}. 
 \tag{5} 
 $$
+For $\phi$: $D_{\mu}D^{\mu \phi}+m^{2}\phi=0.$
+For $A_{\mu}$: $\partial_{\nu}{F^{\mu \nu}}=j^{\mu}.$
+
+# Redundancy
+The gauge symmetry is a redundancy in notation, as we can have infinitely many pairs of $A_{\mu}(x)$ and $\phi(x)$ (which is the gauge symmetry by definition), all describing the same physical system.
+The "redundant" part is the gauge field $A_{\mu}$ it'self.

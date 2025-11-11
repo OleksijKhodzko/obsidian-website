@@ -54,7 +54,7 @@ $$
 $$
 \beta \in \left[0, 2\pi \right) .
 $$
-Any vacuum states from $\mathcal{V}$ are invariant under $U(1)$, which means [[Spontaneous symmetry breaking and Goldstone bosons|SSB]]. 
+No vacuum states from $\mathcal{V}$ are invariant under $U(1)$, which means [[Spontaneous symmetry breaking and Goldstone bosons|SSB]]. 
 
 Lets introduce new parametrization of $\phi$:
 $$
@@ -95,9 +95,3 @@ $$
 Let $\Theta(\theta)$ denote phase of $f$: $f(\theta)=\exp\left\{i\Theta(\theta)\right\}.$
 $W[f]=\frac{\Delta\Theta}{2\pi}$, $\Delta\Theta=\Theta(2\pi)-\Theta(0)$.
 $f$ is continuous on circle $C$, so $f(0)=f(2\pi)\implies W[f]=n, n\in \mathbb{Z}$. 
-
-# Transforms of [[Complex scalar field]] under [[Poincare transforms]] 
-$$\phi'(x)=\phi(x).$$
-
-
-

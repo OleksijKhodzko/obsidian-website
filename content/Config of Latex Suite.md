@@ -1,10 +1,29 @@
 ```
 [
     // Math mode
+    {trigger: "its", replacement: "it's", options: "tAw"},
+    {trigger: "isnt", replacement: "isn't", options: "tAw"},
+    {trigger: "cant", replacement: "can't", options: "tAw"},
+    {trigger: "Lets", replacement: "Let's", options: "tAw"},
+    {trigger: "lets", replacement: "let's", options: "tAw"},
+    {trigger: "dm", replacement: "$$\n$0\n$$", options: "tAw"},
+    {trigger: "su2", replacement: "$SU(${0:2})$ $1", options: "tAw"},
+    {trigger: "Dm", replacement: "$$\n$0\n\\tag\{$1\}\n$$\n$2", options: "tAw"},
+
 	{trigger: "mk", replacement: "$$0$", options: "tA"},
     {trigger: "un", replacement: "^{${0:\\mu}}_{\\ \\ \\ ${1:\\nu}}", options: "mA"},
+    {trigger: "of", replacement: "\\left( $0 \\right) $1", options: "mA"},
+    {trigger: "pls", replacement: "_{+}", options: "mA"},
+    {trigger: "covt", replacement: "\\nabla_{${0:\\mu}} $1", options: "mA"},
+    {trigger: "cont", replacement: "\\nabla^{${0:\\mu}} $1", options: "mA"},
+    {trigger: "Pls", replacement: "^{+}", options: "mA"},
+    {trigger: "mns", replacement: "_{-}", options: "mA"},
+    {trigger: "Mns", replacement: "^{-}", options: "mA"},
+    {trigger: "tag", replacement: "\\tag\{$0\} $1", options: "mA"},
     {trigger: "x'm", replacement: "x'_{\\mu}", options: "mA"}, 
     {trigger: "sdp", replacement: "\\rtimes $0", options: "mA"},
+    {trigger: "d3", replacement: "d^{3}${0:x}\\ $1", options: "mA"},
+    {trigger: "d4", replacement: "d^{4}${0:x}\\ $1", options: "mA"},
     {trigger: "dlb", replacement: "\\Box\\ $0", options: "mA"},
     {trigger: "x'n", replacement: "x'_{\\nu}", options: "mA"},
     {trigger: "x'M", replacement: "x'^{\\mu}", options: "mA"},
@@ -22,6 +41,8 @@
 	{trigger: "dm", replacement: "$$\n$0\n$$", options: "tAw"},
 	{trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
     {trigger: "comm", replacement: "\\Big[${0:A}, ${1:B} \\Big]", options: "mA"},
+    {trigger: "trl", replacement: "\\left[${0:0}, ${1:\\infty} \\right)", options: "mA"},
+     {trigger: "lrt", replacement: "\\left(${0:-\\infty}, ${1:0} \\right]", options: "mA"},
     {trigger: "Comm", replacement: "\\Bigg[${0:A}, ${1:B} \\Bigg]", options: "mA"},
 
     // Dashes
@@ -69,7 +90,7 @@
     {trigger: "_", replacement: "_$0", options: "mA"},
 	{trigger: "sts", replacement: "_\\text{$0}", options: "mA"},
 	{trigger: "sq", replacement: "\\sqrt{ $0 }$1", options: "mA"},
-	{trigger: "//", replacement: "\\frac{$0}{$1}$2", options: "mA"},
+	{trigger: "//", replacement: "\\frac{$0}{$1} $2", options: "mA"},
 	{trigger: "ee", replacement: "e^{ $0 }$1", options: "mA"},
     {trigger: "invs", replacement: "^{-1}", options: "mA"},
     {trigger: /([A-Za-z])(\d)/, replacement: "[[0]]_{[[1]]}", options: "rmA", description: "Auto letter subscript", priority: -1},
@@ -110,6 +131,7 @@
     // More auto letter subscript
     {trigger: /([A-Za-z])_(\d\d)/, replacement: "[[0]]_{[[1]]}", options: "rmA"},
 	{trigger: /\\hat{([A-Za-z])}(\d)/, replacement: "\\hat{[[0]]}_{[[1]]}", options: "rmA"},
+    {trigger: /\\tilde{([A-Za-z])}(\d)/, replacement: "\\hat{[[0]]}_{[[1]]}", options: "rmA"},
 	{trigger: /\\vec{([A-Za-z])}(\d)/, replacement: "\\vec{[[0]]}_{[[1]]}", options: "rmA"},
 	{trigger: /\\mathbf{([A-Za-z])}(\d)/, replacement: "\\mathbf{[[0]]}_{[[1]]}", options: "rmA"},
 
@@ -155,20 +177,21 @@
     {trigger: "=>", replacement: "\\implies", options: "mA"},
 	{trigger: "=<", replacement: "\\impliedby", options: "mA"},
 
-	{trigger: "and", replacement: "\\cap", options: "mA"},
-	{trigger: "orr", replacement: "\\cup", options: "mA"},
-	{trigger: "inn", replacement: "\\in", options: "mA"},
-	{trigger: "notin", replacement: "\\not\\in", options: "mA"},
-    {trigger: "\\\\\\", replacement: "\\setminus", options: "mA"},
-    {trigger: "sub=", replacement: "\\subseteq", options: "mA"},
-    {trigger: "sup=", replacement: "\\supseteq", options: "mA"},
-	{trigger: "eset", replacement: "\\emptyset", options: "mA"},
+	{trigger: "and", replacement: "\\cap $0", options: "mA"},
+	{trigger: "or", replacement: "\\cup $0", options: "mA"},
+	{trigger: "inn", replacement: "\\in $0", options: "mA"},
+	{trigger: "notin", replacement: "\\not\\in $0", options: "mA"},
+    {trigger: "\\\\\\", replacement: "\\setminus $0", options: "mA"},
+    {trigger: "sub=", replacement: "\\subseteq $0", options: "mA"},
+    {trigger: "sup=", replacement: "\\supseteq $0", options: "mA"},
+	{trigger: "eset", replacement: "\\emptyset $0", options: "mA"},
 	{trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"},
 	{trigger: "e\\xi sts", replacement: "\\exists", options: "mA", priority: 1},
 
 	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
     {trigger: "DD", replacement: "\\mathcal{D}", options: "mA"},
     {trigger: "PP", replacement: "\\mathcal{P}", options: "mA"},
+    {trigger: "VV", replacement: "\\mathcal{V}", options: "mA"},
 	{trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
 	{trigger: "CC", replacement: "\\mathbb{C}", options: "mA"},
 	{trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
@@ -199,14 +222,14 @@
 
     // Derivatives and integrals
     {trigger: "par", replacement: "\\frac{ \\partial ${0:y} }{ \\partial ${1:x} } $2", options: "m"},
-    {trigger: "p", replacement: "\\partial_{${0:x}}{${1:y}}", options: "m"},
-    {trigger: "P", replacement: "\\partial^{${0:x}}{${1:y}}", options: "m"},
+    {trigger: "p", replacement: "\\partial_{${0:\\mu}}{${1:\\phi}}", options: "m"},
+    {trigger: "P", replacement: "\\partial^{${0:\\mu}}{${1:\\phi}}", options: "m"},
     {trigger: /pa([A-Za-z])([A-Za-z])/, replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"},
     {trigger: "ddt", replacement: "\\frac{d}{dt} ", options: "mA"},
 
     {trigger: /([^\\])int/, replacement: "[[0]]\\int", options: "mA", priority: -1},
     {trigger: "\\int", replacement: "\\int $0 \\, d${1:x} $2", options: "m"},
-    {trigger: "dint", replacement: "\\int_{${0:0}}^{${1:1}} $2 \\, d${3:x} $4", options: "mA"},
+    {trigger: "dint", replacement: "\\int_{${0:0}}^{${1:1}} d$2 \\ $3", options: "mA"},
     {trigger: "oint", replacement: "\\oint", options: "mA"},
 	{trigger: "iint", replacement: "\\iint", options: "mA"},
     {trigger: "iiint", replacement: "\\iiint", options: "mA"},
@@ -275,6 +298,8 @@
 	{trigger: "align", replacement: "\\begin{align*}\n$0\n\\end{align*}", options: "mA"},
 	{trigger: "array", replacement: "\\begin{array}\n$0\n\\end{array}", options: "mA"},
     {trigger: "gather", replacement: "$$\n\\begin{gather*}\n$0\n\\end{gather*}\n$$", options: "tA"},
+    {trigger: "gather", replacement: "\\begin{gather*}\n$0\n\\end{gather*}", options: "mA"},
+
 
 
     // Brackets
