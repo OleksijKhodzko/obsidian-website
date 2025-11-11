@@ -33,4 +33,16 @@ $$
 $$
 *by the way, [[geodesic equation]] is a parallel transport equation applied to the tangent vector of the curve*.
 ## Non-Abelian case 
-In GR, for example, the connection of space-time is [[Levi-Civita connection]], components of which are [[Christoffel symbols]]. This connection is imposed on the manifold of spacetime so that the [[covariant derivative]] is invariant under general linear group $GL(4, \mathbb{R})$ (group of all invertible 4x4 matrices), which "represents" coordinate changes. The group is non-Abelian, so we cant
+In GR, for example, the connection of space-time is [[Levi-Civita connection]], components of which are [[Christoffel symbols]]. This connection is imposed on the manifold of spacetime so that the [[covariant derivative]] is invariant under general linear group $GL(4, \mathbb{R})$ (group of all invertible 4x4 matrices), which "represents" coordinate changes. The group is non-Abelian, so after solving equation $(3)$ with [[Ітераційний метод|iterational method]] we will get a and ordered integral.
+
+# Abelian case 
+In Abelian case we can solve the equation for parallel transport $(3)$, find $Y(x)$ which will satisfy it for connection $A$ and line $\Lambda$, which starts at $x_{0}$ and ends at $x$:
+$$
+Y(x)=W[x,x_{0},\Lambda,A]Y(x_{0}),
+$$
+where we call $W[x,x-,\Lambda,A]$ a transport operator.
+We can also derive 
+$$
+\nabla_{\mu} \phi(x)=\lim_{ \epsilon \to 0 } \frac{W[x,x_{0},\Lambda ,A]\phi(x_{0})-\phi(x)}{\epsilon}
+$$
+by writing the covariant derivative in some explicit Abelian form and calculating the expression for $W[x,x_{0},\Lambda,A]$. 

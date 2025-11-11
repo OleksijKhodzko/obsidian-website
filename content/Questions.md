@@ -7,3 +7,4 @@ is a "on-shell" condition?
 4. Page 44 (Hadasz, Arodz). What the fuck is this explanation with Heisenberg uncertainty?
 5. Is spontaneous symmetry breaking relevant to symmetry only of the vacuum manifold or the symmetry has to be global (for the [[Lagrangian]]).
 6. Winding number, please 
+7. General rigorous definition of [[Gauge transform]]

@@ -1,0 +1,1 @@
+[[Gauge transform]] is a local transform.
