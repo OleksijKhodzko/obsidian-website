@@ -1,1 +1,0 @@
-\oint\limits_L
