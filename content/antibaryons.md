@@ -1,0 +1,1 @@
+[[Particles table picture]] constructed of 3 [[antiquarks]].

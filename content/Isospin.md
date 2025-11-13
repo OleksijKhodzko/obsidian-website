@@ -1,0 +1,2 @@
+Isospin is a [[Quantum numbers|quantum number]] which represents amount and type of quarks in a [[hadron]].
+It is a a vector in quantum states space. The third component $T_{3}$ is +1/2 for [[up quarks]], -1/2 for [[down quarks]] and 0 for all other [[flavors of quarks]]. 

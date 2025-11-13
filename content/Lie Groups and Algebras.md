@@ -3,6 +3,9 @@ title:
 draft: false
 tags:
   - Group_theory
+aliases:
+  - Lie Algebra
+  - Lie Algebras
 ---
 # Physics definition
 Lie Group is a group elements of which are characterized by continuous parameters.

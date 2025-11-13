@@ -30,11 +30,7 @@ A_\mu' = A_\mu-\partial_{\mu}{\chi(x)}.
 $$
 
 ^35d749
-
-# Parallel transport
-
-![[Directional derivative#Abelian case]]
-
+# [[Directional derivative#Parallel transport]]
 Using $(3)$ we can find
 $$
 W[x,x_{0},\Lambda,A]=\exp\left\{-iq\int dx^{\mu}A_{\mu}\right\}.

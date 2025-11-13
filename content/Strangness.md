@@ -1,0 +1,1 @@
+Whatever [[Quantum numbers|quantum number]] that is. There exist [[strange quarks]].
