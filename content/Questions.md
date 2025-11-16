@@ -11,3 +11,5 @@ is a "on-shell" condition?
 7. General rigorous definition of [[Gauge transform]]
 8. Is product of $SU(N)$ and $U(1)$ $U(N)$ or something like that?  
 9. Difference between $SU(n)$ and $U(n)$ [[Lie Groups and Algebras|Lie Algebras]] .
+10. Are commutation relations between generators enough to state equivalence between their 
+11. representations. 

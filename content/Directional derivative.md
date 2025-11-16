@@ -52,4 +52,4 @@ by writing the covariant derivative in some explicit form and calculating the ex
 *In GR, for example, the connection of space-time is [[Levi-Civita connection]], components of which are [[Christoffel symbols]]. This connection is imposed on the manifold of spacetime so that the [[covariant derivative]] is invariant under general linear group $GL(4, \mathbb{R})$ (group of all invertible 4x4 matrices), which "represents" coordinate changes. The group is non-Abelian, so after solving equation $(3)$ with [[Ітераційний метод|iterational method]] we will get a and ordered integral.*[^1]
 
 
-[^1]: #future_studie, not sure about that
+[^1]: #future_study, not sure about that
