@@ -1,1 +1,1 @@
-Particles composed of 3 [[quarks]].
+Particles composed of 3 [[quark]].
